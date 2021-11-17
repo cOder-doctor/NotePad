@@ -149,9 +149,3 @@ public class CreateText extends Activity {
         finish();
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-        finish();
-    }
-}
