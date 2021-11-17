@@ -85,13 +85,6 @@ public class CreateText extends Activity {
 
     }
 
-    public void insert(String filename, String path) {
-        FileName c = new FileName();
-        c.setFilename(filename);
-        c.setPath(path);
-
-        helper.insertFile(c);
-    }
 
     private AlertDialog AskOption() {
         LayoutInflater li = LayoutInflater.from(this);
