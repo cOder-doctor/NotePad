@@ -136,11 +136,7 @@ public class CreateText extends Activity {
         diaBox.show();
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        finish();
-    }
+ 
 
 
 
